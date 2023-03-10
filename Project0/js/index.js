@@ -9,7 +9,7 @@ let output="Earth";
 
 // generic function to get the API slect bax value changing no need for a submit button
 document.getElementById("planets").onchange = function () { getData() };
-
+//comment
 
 async function getData() {
     newtext="";
