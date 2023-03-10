@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="webpage">
+        <div class="header">
+            <h1 align="center">Lets visit the planets<BR></h1>
+        </div>
+        <div class="main">
+            <div class="sidebar">
+
+                <div align=center><img src="image/8planets-1.png" height="150%" ></div>
+            </div>
+            <div class="contentblock">
+                <p class="title">Please select a planet from the dropdown and you can see some information about the
+                    planet</p>
+                <br>
+                <div class="ioSection">
+                    <div class="dropdown">
+                        <select name="planets" id="planets">
+                            <option value="Earth">Select One</option>
+                            <option value="Mercury">Mercury</option>
+                            <option value="Venus">Venus</option>
+                            <option value="Earth">Earth</option>
+                            <option value="Mars">Mars</option>
+                            <option value="Jupiter">Jupiter</option>
+                            <option value="Saturn">Saturn</option>
+                            <option value="Uranus">Uranus</option>
+                            <option value="Neptune">Neptune</option>
+                        </select>
+                    </div>
+                    <div id="APIoutput" class="backimage" style="background-image: url('./image/Earth1.png');background-repeat: no-repeat;">                     
+                        <script src="js/index.js" defer></script>
+                    </div>
+                </div>
+                <div id="facts">
+                    <H1>Interesting Facts:</H1>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div align="center">I hope you enjoyed your visit. To Infinity and beyond!!</div>
+        </div>
+    </div>
+</body>
+
+</html>

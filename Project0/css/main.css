@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+.webpage {
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(41, 125, 125);
+    background-image: url("../image/stars.jpg");
+    /*background-size:100px;*/
+    border:solid 3px;
+    box-shadow: 10px 5px 5px rgb(124, 115, 115);
+    margin:1%;
+    height:95eh;
+}
+
+.header{
+    color:white;
+}
+
+.main {
+    display:flex;
+    flex-direction: row;
+}
+
+.footer{
+    color:white;
+}
+
+.sidebar {
+}
+
+.contentblock {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly; 
+    /*background-color:rgb(41, 125, 125);*/
+    width: 100%;       
+}
+
+.ioSection {
+    display:flex;
+    flex-direction: row;
+    height: 70vh;
+    margin-right: 5%; 
+    width:98% 
+}
+
+#facts {
+    
+    background-color:rgb(121, 124, 207);
+    border:solid white 3px;
+    
+    margin-right:2%;
+    margin-bottom: 10px;
+    height:11vh;
+    padding:10px;
+    color:white;
+    text-align:center;
+    text-shadow: 1px 2px 2px black;
+ 
+
+}
+.title {
+    text-align: center;
+    color:white;
+}
+
+#planets {
+    font-family:"Anton",sans serif;
+}
+
+.dropdown {
+    font-family:"Anton",sans serif;
+    padding-right:10px;
+    padding-left:10px;
+   /* background-color:rgb(59, 49, 118);  */
+}
+
+#APIoutput {
+    font-family:"Anton",sans serif;
+    width:100%;
+    text-align:right;
+    color:rgb(150, 119, 119);
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+ 
+   /* background-color:rgb(59, 49, 118); */
+    
+}
