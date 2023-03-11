@@ -5,16 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge 1</title>
-    <link rel="stylesheet" href="./main.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="header">
+    <div class="container" style="width:500px; height:300px;">
+        <div class="header" id="header" style="   text-align:center; width:100%; background-color:rgb(104, 41, 211); height:33%; color:white;">
             Waiting
         </div>
-        <div class="main">
-            <button class="button">Click Me!</button>
+        <div class="main" style ="    text-align:center; width:100%; background-color:rgb(37, 187, 142); height:66%;">
+            <button id="btn">Click Me!</button>
         </div>
     </div>
 </body>
 </html>
+
+    <!--JAVASCRIPT-->
+    <script>
+        document.getElementById("btn").addEventListener("click", tempChange);
+
+        function tempChange() {
+        
+            header.innerHTML="Working, Please Wait";
+            const myTimeout = setTimeout(switcherbacker, 5000);
+        }
+        
+        function switcherbacker() {
+            header.innerHTML="Waiting";
+        }
+    </script>
+    <!--END OF JAVASCRIPT-->
