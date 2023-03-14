@@ -24,7 +24,8 @@ async function getData() {
         let queryString = 'https://api.le-systeme-solaire.net/rest/bodies/{' + output + '}';
         //console.log(queryString);
         
-        
+        let response = await fetch(queryString);
+        let parsedRes = await response.json();    
 
 
 
