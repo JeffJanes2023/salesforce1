@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+header {
+    text-align: center;
+    background-color: red;
+    color:white;
+}
+
+main{
+    text-align: center;
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: blue;
+    color:white;
+}
